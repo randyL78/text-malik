@@ -1,0 +1,19 @@
+specifications:
+    inputs: Length in feet and inches
+    outuput: Equivalent length in centimeters
+
+knowns:
+    1 inch = 2.54 centimeters
+    1 foot = 12 inches
+
+algorithm
+    1. Get the length in feet and inches
+    2. Convert length into total inches
+    3. Convert total inches into centimeters
+    4. Output centimeters
+
+variable list:
+    int feet -> store given feet
+    int inches -> store given inches
+    int totalInches -> store total inches
+    int centimeters -> store length in centimeters

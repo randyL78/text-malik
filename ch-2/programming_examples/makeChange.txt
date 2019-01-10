@@ -1,0 +1,10 @@
+specifications:
+    inputs: change in cents
+    output: change in equivelant half dollars, quarters,
+            dimes, nickles and cents
+
+knowns:
+    half dollars = 50 cents
+    quarters = 25 cents
+    dimes = 10 cents
+    nickles = 5 cents
