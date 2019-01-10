@@ -1,0 +1,24 @@
+12
+  a. int x, y; x = 25; y = 18;
+  b. int temp = 10; char ch = 'A';
+  c. x += 5;
+  d. double payRate = 12.5;
+  e. tempNum = firstNum;
+  f. int temp = x; x = y; y = temp;
+  g. cout << x << " " << y << " " << x + 12 / y - 18 << endl;
+  h. char grade = 'A';
+  i. int w, x, y, z;
+  j. x = static_cast<int>(z);
+
+13
+  a. 9.0 / 5 * 'C' + 32;
+  b. static_cast<int>('+');
+  c. static_cast<int>(x);
+  d. str = "C++ is exciting";
+  e. totalInches = 12 * feet + inches;
+  f. i++;
+  g. v = 4 / 3 * (3.1416 * r * r * r);
+  h. s = const double PI = 3.1416; 2 * PI * r * r + 2 * PI * r * h;
+  i. a + (b - c) / d * (e * f - g * h);
+  j. (b * -1 + (b * b - 4 * a * c)) / (2 * a);
+14

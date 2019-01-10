@@ -8,3 +8,20 @@ knowns:
     quarters = 25 cents
     dimes = 10 cents
     nickles = 5 cents
+
+algorithm draft 
+    1 input number of cents
+    2 divide number of cents by 50, output  result in half dollars
+    3 divide the remainder by 25, output  the result in quarters
+    4 divide the remainder by 10, output  result in half dimes
+    5 divide the remainder by 5, output  the result in nickles
+    6 output the remaining cents
+     
+named constants:
+    int HALF_DOLLAR;
+    int QUARTER;
+    int DIME;
+    int NICKLE; 
+
+variables: 
+    int cents;
