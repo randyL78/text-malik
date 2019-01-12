@@ -29,13 +29,24 @@ int main()
     string lastName;
 
     inFile.open("./test.txt");
-    inFile >> firstName >> lastName >> test1 >> test2 >> test3
-           >> test4 >> test5;
-
-    average = (test1 + test2 + test3 + test4 + test5) / 5;
-
     outFile.open("./testavg.out");
-    outFile << firstName << " " << lastName << ' ' << average;
+
+    outFile << fixed << showpoint << setprecision(2);
+
+    cout << "Processing data...";
+
+    inFile >> firstName >> lastName;
+    outFile << "Student Name: " << firstName << " " << lastName << endl;
+    
+    
+    inFile >> test1 >> test2 >> test3
+           >> test4 >> test5;
+    outFile << "Test scores: " << setw(6) << test1 << setw(6) << test2
+            << setw(6) << test3 << setw(6) << test4 << setw(6) << test5 << endl;
+    
+
+    average = (test1 + test2 + test3 + test4 + test5) / 5.0;
+    outFile <<  "Average test score: " << average << endl;
 
 
     inFile.close();
